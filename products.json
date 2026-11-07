@@ -1,0 +1,96 @@
+{
+  "services": [
+    {
+      "id": 1,
+      "icon": "fas fa-laptop-code",
+      "title": "Web Development",
+      "description": "Custom, responsive web applications built with clean code and modern architectures optimized for speed."
+    },
+    {
+      "id": 2,
+      "icon": "fas fa-paint-brush",
+      "title": "UI/UX Design",
+      "description": "User-centered design interfaces that offer intuitive navigation, sleek aesthetics, and effortless accessibility."
+    },
+    {
+      "id": 3,
+      "icon": "fas fa-bullhorn",
+      "title": "Digital Marketing",
+      "description": "Data-driven marketing campaigns focused on increasing user engagement, brand awareness, and revenue conversion."
+    },
+    {
+      "id": 4,
+      "icon": "fas fa-mobile-alt",
+      "title": "App Development",
+      "description": "Cross-platform mobile apps for iOS and Android tailored to deliver seamless performance on every device."
+    },
+    {
+      "id": 5,
+      "icon": "fas fa-search-dollar",
+      "title": "SEO Optimization",
+      "description": "Comprehensive search engine optimization strategies that elevate your organic rankings and web traffic."
+    },
+    {
+      "id": 6,
+      "icon": "fas fa-shield-alt",
+      "title": "Cybersecurity",
+      "description": "Enterprise-grade security audits, SSL implementation, and vulnerability monitoring to protect client data."
+    }
+  ],
+  "portfolio": [
+    {
+      "id": 1,
+      "title": "E-Commerce Mobile Hub",
+      "category": "web",
+      "image": "https://images.unsplash.com/photo-1557821552-17105176677c?auto=format&fit=crop&w=600&q=80",
+      "description": "A high-performance web storefront designed for scalable online retail."
+    },
+    {
+      "id": 2,
+      "title": "SaaS Platform Redesign",
+      "category": "design",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=600&q=80",
+      "description": "Modern UI redesign focusing on improving user workflow and conversion."
+    },
+    {
+      "id": 3,
+      "title": "Global Brand Campaign",
+      "category": "marketing",
+      "image": "https://images.unsplash.com/photo-1533750349088-cd871a92f312?auto=format&fit=crop&w=600&q=80",
+      "description": "Multi-channel digital marketing push scaling brand reach globally."
+    },
+    {
+      "id": 4,
+      "title": "Fintech Dashboard",
+      "category": "web",
+      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=600&q=80",
+      "description": "Real-time analytics portal tailored for enterprise financial monitoring."
+    }
+  ],
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "Sarah Jenkins",
+      "role": "CEO, TechNova Inc.",
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=200&q=80",
+      "rating": 5,
+      "feedback": "DigitalEdge delivered our web application well ahead of schedule. Their attention to detail and performance optimization is unmatched."
+    },
+    {
+      "id": 2,
+      "name": "David Ross",
+      "role": "Founder, Nexus Design",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&q=80",
+      "rating": 5,
+      "feedback": "The UI/UX design work transformed our user retention. Working with the team was an absolute pleasure from concept to launch."
+    },
+    {
+      "id": 3,
+      "name": "Elena Torres",
+      "role": "Marketing Director, Vantage",
+      "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=200&q=80",
+      "rating": 5,
+      "feedback": "Our online search traffic grew by over 200% within 3 months of implementing DigitalEdge's recommendations. Highly recommended!"
+    }
+  ]
+}

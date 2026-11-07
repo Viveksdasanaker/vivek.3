@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DigitalEdge | Cutting-Edge Digital Agency</title>
+  <!-- Google Fonts & Font Awesome Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="#" class="logo">Digital<span>Edge</span></a>
+      
+      <nav class="nav-menu" id="nav-menu">
+        <ul class="nav-list">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+          <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+          <li><a href="#contact" class="nav-link btn-nav">Get Started</a></li>
+        </ul>
+      </nav>
+
+      <!-- Mobile Hamburger Menu Button -->
+      <button class="hamburger" id="hamburger" aria-label="Toggle Navigation Menu">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <span class="badge">Innovation Meets Execution</span>
+          <h1>Transforming Ideas Into <span class="highlight">Digital Reality</span></h1>
+          <p>We build cutting-edge web applications, brand identities, and digital marketing strategies that empower your business to stay ahead of the curve.</p>
+          <div class="hero-btns">
+            <a href="#services" class="btn btn-primary">Explore Services</a>
+            <a href="#contact" class="btn btn-secondary">Contact Us</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=800&q=80" alt="DigitalEdge Team Working">
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section-padding">
+      <div class="container about-container">
+        <div class="about-image">
+          <img src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=800&q=80" alt="About DigitalEdge">
+        </div>
+        <div class="about-content">
+          <span class="sub-title">Who We Are</span>
+          <h2>We Are Driven By Passion, Creativity & Technology</h2>
+          <p>Founded in 2024, DigitalEdge delivers robust digital solutions designed to elevate brand presence. Our global team of developers, designers, and strategists work collaboratively to transform complex challenges into effortless experiences.</p>
+          <div class="stats-grid">
+            <div class="stat-card">
+              <h3><span class="counter" data-target="150">0</span>+</h3>
+              <p>Projects Delivered</p>
+            </div>
+            <div class="stat-card">
+              <h3><span class="counter" data-target="98">0</span>%</h3>
+              <p>Client Satisfaction</p>
+            </div>
+            <div class="stat-card">
+              <h3><span class="counter" data-target="12">0</span>+</h3>
+              <p>Industry Awards</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section (Loaded via JSON Fetch API) -->
+    <section id="services" class="services section-padding bg-light">
+      <div class="container">
+        <div class="section-title">
+          <span class="sub-title">What We Do</span>
+          <h2>Our Core Services</h2>
+          <p>Tailored digital solutions built to scale your business and drive conversions.</p>
+        </div>
+        <div class="services-grid" id="services-container">
+          <!-- Dynamically populated from data.json -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Section (Loaded via JSON Fetch API) -->
+    <section id="portfolio" class="portfolio section-padding">
+      <div class="container">
+        <div class="section-title">
+          <span class="sub-title">Recent Work</span>
+          <h2>Featured Projects</h2>
+          <p>Take a look at some of our recent digital creations and client successes.</p>
+        </div>
+        
+        <!-- Category Filter Buttons -->
+        <div class="filter-buttons">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="web">Web Dev</button>
+          <button class="filter-btn" data-filter="design">UI/UX Design</button>
+          <button class="filter-btn" data-filter="marketing">Marketing</button>
+        </div>
+
+        <div class="portfolio-grid" id="portfolio-container">
+          <!-- Dynamically populated from data.json -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section (Loaded via JSON Fetch API) -->
+    <section id="testimonials" class="testimonials section-padding bg-light">
+      <div class="container">
+        <div class="section-title">
+          <span class="sub-title">Client Feedback</span>
+          <h2>What People Say About Us</h2>
+          <p>Read authentic feedback from industry leaders who trust DigitalEdge.</p>
+        </div>
+        <div class="testimonials-grid" id="testimonials-container">
+          <!-- Dynamically populated from data.json -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section-padding">
+      <div class="container">
+        <div class="section-title">
+          <span class="sub-title">Get In Touch</span>
+          <h2>Let's Build Something Great Together</h2>
+          <p>Have a project in mind or need assistance? Fill out the form below to connect.</p>
+        </div>
+        <div class="contact-wrapper">
+          <div class="contact-info">
+            <div class="info-card">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <h4>Location</h4>
+                <p>100 Digital Boulevard, Suite 400, Tech City</p>
+              </div>
+            </div>
+            <div class="info-card">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <h4>Email Us</h4>
+                <p>contact@digitaledge.com</p>
+              </div>
+            </div>
+            <div class="info-card">
+              <i class="fas fa-phone"></i>
+              <div>
+                <h4>Call Us</h4>
+                <p>+1 (555) 019-2834</p>
+              </div>
+            </div>
+          </div>
+          
+          <form class="contact-form" id="contact-form">
+            <div class="form-group">
+              <input type="text" id="name" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+              <input type="email" id="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+              <input type="text" id="subject" placeholder="Subject" required>
+            </div>
+            <div class="form-group">
+              <textarea id="message" rows="5" placeholder="Your Message..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+            <div id="form-response" class="form-response"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-brand">
+        <a href="#" class="logo">Digital<span>Edge</span></a>
+        <p>Empowering organizations through modern web architecture, digital branding, and strategic tech innovations.</p>
+        <div class="social-links">
+          <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-newsletter">
+        <h4>Subscribe to Newsletter</h4>
+        <p>Stay updated with our latest technology insights and updates.</p>
+        <form id="newsletter-form">
+          <input type="email" placeholder="Enter your email" required>
+          <button type="submit" class="btn btn-primary"><i class="fas fa-paper-plane"></i></button>
+        </form>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 DigitalEdge Agency. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button id="back-to-top" aria-label="Back to Top"><i class="fas fa-arrow-up"></i></button>
+
+  <script src="script.js"></script>
+</body>
+</html>
